@@ -1,0 +1,83 @@
+* {
+    padding : 0;
+    margin : 0;
+}
+
+body {
+    background-color: #abcdef;
+    color : black;
+margin:40px;
+font-family: 'EB Garamond', serif;
+color:#123456;
+font-size:16pt;
+line-height:3em;
+}
+@font-face {
+    font-family: moss;
+    src: url('assets/mossarcher.ttf');
+}
+	.imgGal {
+			 height: 300px;
+				width: auto;
+				}
+				.book {
+					position:absolute;
+			 width: 260px;
+				height: auto;
+				bottom:15px;
+				}
+#topBit{
+	top:0px;
+	left:0px;
+	z-index:2;
+	position:fixed;
+	background : #bada55;
+	height:70px;
+	width:100%;
+	}
+	#items{
+		z-index:0;
+		position:relative;
+	top:80px;
+	}
+	#logo{
+		position:fixed;
+		top:10px;
+		left:10px;
+		width:50px;
+		height:50px;
+		}
+		#name {
+			top:-5px;
+			position:fixed;
+			font-family: 'Lexend Deca', sans-serif;
+			left:80px;
+			}
+			#contents{
+				position:relative;
+				left:80px;
+				}
+				#galImgs{
+					position:relative;
+					background-color: #123456;
+					margin:50px;
+					padding:40px;
+					height:600px;
+					overflow-x:hidden;
+					overflow-y:auto;
+					border:6px solid;
+					border-color:#bada55;
+					}
+					#bookshelf{
+					position:relative;
+					background-color: #123456;
+					margin:auto;
+					padding:40px;
+					width:auto;
+					height:400px;
+					overflow-x:auto;
+					overflow-y:hidden;
+					border:6px solid;
+					border-color:#bada55;
+					}
+					
